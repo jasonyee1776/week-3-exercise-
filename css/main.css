@@ -1,0 +1,47 @@
+
+a {
+	text-decoration: none;
+	color: green;
+}
+
+
+li {
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+}
+
+nav {
+	text-align: center;
+}
+
+li:hover {
+	background-color: #ccffcc;
+	border: 3px double #ccffff	;
+	transition: 0.8s ease;
+	color: green;
+	font-size: 40px;
+}
+
+button {
+	display: block;
+	margin: 20px auto;
+	padding: 5px 175px;
+	background:  #ffccff;
+	border: none;
+
+}
+
+
+button:hover {
+	background-color: #800080;
+	color: white;
+	transition: 0.8s ease;
+	cursor: pointer;
+}
+
+button:focus {
+	outline: none;
+	cursor: pointer;
+}
+
